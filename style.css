@@ -65,7 +65,7 @@ button {
     margin: -16px 0;
 }
 .card_box .card{
-    padding: 16px 0;
+    padding: 16px;
     display: flex;
 }
 .card_img-box{
