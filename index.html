@@ -123,10 +123,11 @@
     </div>
     <p id="script"></p>
 </body>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
     let width = document.querySelector('.width').clientWidth
     let script = document.querySelector('#script')
-    script.innerHTML = width
+    script.innerHTML = window.Telegram.WebApp
     console.log(width);
 </script>
 </html>
