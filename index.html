@@ -127,7 +127,6 @@
 <script>
     let width = document.querySelector('.width').clientWidth
     let script = document.querySelector('#script')
-    script.innerHTML = window.Telegram.WebApp
-    console.log(width);
+    script.innerHTML = JSON.stringify(window.Telegram.WebApp)
 </script>
 </html>
