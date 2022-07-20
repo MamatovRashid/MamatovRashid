@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 &display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 &display=swap'); */
+
+
+:root {
+    --color: #121517;
+    --bg-color: #fff;
+}
+[data-theme="dark"] {
+    --color: #fff;
+    --bg-color: #121517;
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +16,9 @@
     line-height: 1.5;
     color: #121517;
     font-family: 'Roboto', sans-serif;
+}
+body{
+    background: var(--bg-color);
 }
 button {
     border: none;
@@ -79,6 +92,7 @@ button {
     margin-left: 12px;
 }
 .card_title{
+    color: var(--color);
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
@@ -93,6 +107,7 @@ button {
 }
 .card_price{
     background: #FEDA00;
+    color: #121517;
     padding: 8px 16px;
     border-radius: 8px;
     font-size: 14px;
